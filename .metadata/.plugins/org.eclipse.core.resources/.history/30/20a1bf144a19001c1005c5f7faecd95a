@@ -1,0 +1,25 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class NovoCampeaoLol {
+	public static void main(String[] args) {
+		
+		Scanner mid = new Scanner(System.in);
+		
+		String nome = "Digite o nome do novo campeão ";
+		System.out.print(nome);
+		mid.next();
+		
+		
+	
+	
+	
+	
+	
+	}
+	
+
+	
+
+}

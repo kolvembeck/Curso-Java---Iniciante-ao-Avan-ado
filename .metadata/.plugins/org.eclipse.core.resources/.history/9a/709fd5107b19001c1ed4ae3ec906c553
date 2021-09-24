@@ -1,0 +1,36 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner  (System.in);
+		
+			String salario1 = JOptionPane.showInputDialog("Digite o primeiro salário");
+			System.out.print("O primeiro salario é  R$ " + salario1 + "\n");
+			
+			String salario2 = JOptionPane.showInputDialog("Digite o segundo salário");
+			System.out.print("O segundo salario é R$ " + salario2 + "\n");
+			
+			String salario3 = JOptionPane.showInputDialog("Digite o terceiro salário");
+			System.out.println("O terceiro salario é R$ " + salario3 + "\n");
+			
+			double valor1 = Float.parseFloat(salario1);
+			double valor2 = Float.parseFloat(salario2);
+			double valor3 = Float.parseFloat(salario3);
+			
+			float somaSalarios = valor1 + valor2 + valor3;
+			
+			
+			System.out.println("A média dos três salarios é R$ " + somaSalarios / 3);
+			
+			entrada.close();
+			
+			
+			
+	}
+
+}

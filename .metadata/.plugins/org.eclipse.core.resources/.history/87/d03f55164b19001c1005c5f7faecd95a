@@ -1,0 +1,24 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class NovoCampeaoLol {
+	public static void main(String[] args) {
+		
+		Scanner mid = new Scanner(System.in);
+		
+		String campeao = "Digite o nome do novo campeão: ";
+		mid.next();
+		
+		System.out.print("Quantas habilidades o campeão tem? ");
+		int habilidade = mid.nextInt();
+		mid.nextLine();		
+		
+		System.out.printf("O %s possui %d habilidades", campeao, habilidade);	
+	
+	}
+	
+
+	
+
+}

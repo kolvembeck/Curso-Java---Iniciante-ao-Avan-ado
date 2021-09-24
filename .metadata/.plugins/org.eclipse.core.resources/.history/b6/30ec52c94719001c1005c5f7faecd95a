@@ -1,0 +1,27 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Console2 {
+	
+	public static void main(String[] args) {
+		
+		Scanner aluno = new Scanner(System.in);
+		
+		String nome = aluno.nextLine();
+		System.out.println("Qual o nome do aluno? ");
+		
+		int idade = aluno.nextInt();
+		System.out.println("Qual a idade do aluno? ");
+		
+		String materia = aluno.nextLine();
+		System.out.println("Qual matéria o aluno foi cadastrado? ");
+		
+		System.out.printf("O aluno %s de %d está matriculado na matéria %s", 
+				nome, idade, materia);
+		
+				
+				
+	}
+
+}
